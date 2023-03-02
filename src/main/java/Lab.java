@@ -1,4 +1,5 @@
 
+
 public class Lab {
     /**
      * This method must throw an unchecked exception.
@@ -13,7 +14,11 @@ public class Lab {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException(){
+    public void throwUncheckedException() {
+        int num = 0;
+        int num2 = 0;
+        num2 = num/num;
+ 
 
     }
 }
